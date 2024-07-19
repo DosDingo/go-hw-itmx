@@ -20,3 +20,19 @@ download and install this **(FOR WINDOW)**
 ```
 go run main.go
 ```
+
+มี scripts สำหรับใช้เพื่อเพิ่มข้อมูลใน customers เผื่อไว้ลองเล่นกันครับ
+
+สามารถนำคำสั่งนี้ไปรันใน terminal ได้เลยครับ
+```
+go run .\scripts\create_customers.go
+```
+
+**ส่วนตอนลองเล่นก็สามารถใช้ postman หรือ curl ได้ตามสะดวกเลยนะครับ**
+
+ในส่วนของ code coverage สามารถใช้คำสั่งตามด้านล่างได้เลยครับ
+
+```
+go test ./... -coverprofile=coverage.out
+```
+
